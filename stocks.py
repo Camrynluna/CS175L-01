@@ -4,10 +4,10 @@
 #January 23rd, 2023
 
 #stocks
-Commission_Rate=float(0.03)
-Num_Shares=int(2000)
-Purchase_Price=float(40.0)
-Selling_Price=float(42.75)
+Commission_Rate=float(input('Commission rate for the purchase: ')) 
+Num_Shares=int(input('Number of shares purchased: '))
+Purchase_Price=float(input('Price of the purchase: '))
+Selling_Price=float(input('Selling price of the purchase: '))
 
 amountPaidForStock=Num_Shares*Purchase_Price
 purchaseCommission=Commission_Rate*amountPaidForStock
