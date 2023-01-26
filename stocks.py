@@ -1,3 +1,9 @@
+#Camryn Moschitta
+#Professor Eckert
+#CS-175L-01
+#January 23rd, 2023
+
+#Stocks
 COMMISSION_RATE=0.03
 NUM_SHARES=2000
 PURCHASE_PRICE=40.0
