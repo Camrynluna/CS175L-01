@@ -4,16 +4,16 @@
 #January 23rd, 2023
 
 #Stocks
-COMMISSION_RATE=float(0.03)
-NUM_SHARES=int(2000)
-PURCHASE_PRICE=float(40.0)
-SELLING_PRICE=float(42.75)
+Commission_Rate=float(0.03)
+Num_Shares=int(2000)
+Purchase_Price=float(40.0)
+Selling_Price=float(42.75)
 
-amountPaidForStock=NUM_SHARES*PURCHASE_PRICE
-purchaseCommission=COMMISSION_RATE*amountPaidForStock
+amountPaidForStock=Num_Shares*Purchase_Price
+purchaseCommission=Commission_Rate*amountPaidForStock
 totalPaid=amountPaidForStock+purchaseCommission
-stockSoldFor=NUM_SHARES*SELLING_PRICE
-sellingCommission=COMMISSION_RATE*stockSoldFor
+stockSoldFor=Num_Shares*Selling_Price
+sellingCommission=Commission_Rate*stockSoldFor
 totalReceived=stockSoldFor-sellingCommission
 profitOrLoss=totalReceived-totalPaid
 
