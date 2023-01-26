@@ -3,7 +3,7 @@
 #CS-175L-01
 #January 23rd, 2023
 
-#Stocks
+#stocks
 Commission_Rate=float(0.03)
 Num_Shares=int(2000)
 Purchase_Price=float(40.0)
