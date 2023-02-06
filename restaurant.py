@@ -7,15 +7,15 @@ vegetarian=False
 vegan=False
 gluten_free=False
 
-answer1=(input('Is anyone in your party a vegetarian?: '))
+answer1=input('Is anyone in your party a vegetarian?: ')
 if answer1 == 'yes' or answer1 == 'Yes':
     vegetarian = True
 
-answer2=(input('Is anyone in your party a vegan?: '))
+answer2=input('Is anyone in your party a vegan?: ')
 if answer2 == 'yes' or answer2 == 'Yes':
     vegan = True
 
-answer3=(input('Is anyone in your party gluten free?: '))
+answer3=input('Is anyone in your party gluten free?: ')
 if answer3 == 'yes' or answer3 == 'Yes':
     gluten_free = True
 
