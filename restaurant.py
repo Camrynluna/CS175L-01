@@ -37,6 +37,9 @@ while repeat == 'yes':
     if vegetarian== True and vegan== True and gluten_free== True:
         print("Corner Cafe")
         print("Chef's Kitchen")
+    else:
+        print("Corner Cafe")
+        print("Chef's Kitchen")
     repeat=input('Do you want to search for more restaurants? ')
     
   
