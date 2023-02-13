@@ -27,6 +27,8 @@ turtle.pensize(4)
 turtle.color('Black')
 turtle.fillcolor('#cf142b')
 turtle.begin_fill()
+turtle.penup()
+turtle.setposition(-50,100)
 for i in range(NUM_SIDES):
     turtle.pendown()
     turtle.forward(LENGTH)
@@ -34,7 +36,7 @@ for i in range(NUM_SIDES):
     turtle.penup()
 turtle.end_fill()
 
-turtle.setposition(-46,-160)
+turtle.setposition(-98,-60)
 turtle.color("White")
 turtle.write("STOP", font=("Highway Gothic", 80), align=("left"))
 turtle.hideturtle()
